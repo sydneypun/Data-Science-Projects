@@ -6,8 +6,51 @@ import pandas as pd
 st.write( """
 	# Simple Stock Analysis Application
 
-	Here we can see the stock closing price and volume for Google, Tesla, and Facebook, Amazon and Netflix!
+	Here we can see the stock closing price and volume for FANG (Facebook, Amazon, Netflix, Google) and Tesla!
 	""")
+
+
+# FACEBOOK STOCK
+# ticker symbol is defined here
+ticker_symbol2 = 'FB'
+# get data on this ticker
+ticker_data2 = yf.Ticker(ticker_symbol2)
+# get the historical prices for this ticker
+ticker_df2 = ticker_data2.history(period='1d', start='2010-9-20', end='2020-9-20')
+
+st.write(""" ## Facebook Stock Closing Price """)
+st.line_chart(ticker_df2.Close)
+st.write(""" ## Facebook Stock Volume """)
+st.line_chart(ticker_df2.Volume)
+
+
+# AMAZON STOCK
+# ticker symbol is defined here
+ticker_symbol3 = 'AMZN'
+# get data on this ticker
+ticker_data3 = yf.Ticker(ticker_symbol3)
+# get the historical prices for this ticker
+ticker_df3 = ticker_data3.history(period='1d', start='2010-9-20', end='2020-9-20')
+
+st.write(""" ## Amazon Stock Closing Price """)
+st.line_chart(ticker_df3.Close)
+st.write(""" ## Amazon Stock Volume """)
+st.line_chart(ticker_df3.Volume)
+
+
+# NETFLIX STOCK
+# ticker symbol is defined here
+ticker_symbol4 = 'NFLX'
+# get data on this ticker
+ticker_data4 = yf.Ticker(ticker_symbol4)
+# get the historical prices for this ticker
+ticker_df4 = ticker_data4.history(period='1d', start='2010-9-20', end='2020-9-20')
+
+st.write(""" ## Netflix Stock Closing Price """)
+st.line_chart(ticker_df4.Close)
+st.write(""" ## Netflix Stock Volume """)
+st.line_chart(ticker_df4.Volume)
+# GOOGLE STOCK
 # ticker symbol is defined here
 ticker_symbol = 'GOOGL'
 # get data on this ticker
@@ -32,39 +75,3 @@ st.write(""" ## Tesla Stock Closing Price """)
 st.line_chart(ticker_df1.Close)
 st.write(""" ## Tesla Stock Volume """)
 st.line_chart(ticker_df1.Volume)
-
-# ticker symbol is defined here
-ticker_symbol2 = 'FB'
-# get data on this ticker
-ticker_data2 = yf.Ticker(ticker_symbol2)
-# get the historical prices for this ticker
-ticker_df2 = ticker_data2.history(period='1d', start='2010-9-20', end='2020-9-20')
-
-st.write(""" ## Facebook Stock Closing Price """)
-st.line_chart(ticker_df2.Close)
-st.write(""" ## Facebook Stock Volume """)
-st.line_chart(ticker_df2.Volume)
-
-# ticker symbol is defined here
-ticker_symbol3 = 'AMZN'
-# get data on this ticker
-ticker_data3 = yf.Ticker(ticker_symbol3)
-# get the historical prices for this ticker
-ticker_df3 = ticker_data3.history(period='1d', start='2010-9-20', end='2020-9-20')
-
-st.write(""" ## Amazon Stock Closing Price """)
-st.line_chart(ticker_df3.Close)
-st.write(""" ## Amazon Stock Volume """)
-st.line_chart(ticker_df3.Volume)
-
-# ticker symbol is defined here
-ticker_symbol4 = 'NFLX'
-# get data on this ticker
-ticker_data4 = yf.Ticker(ticker_symbol4)
-# get the historical prices for this ticker
-ticker_df4 = ticker_data4.history(period='1d', start='2010-9-20', end='2020-9-20')
-
-st.write(""" ## Netflix Stock Closing Price """)
-st.line_chart(ticker_df4.Close)
-st.write(""" ## Netflix Stock Volume """)
-st.line_chart(ticker_df4.Volume)
