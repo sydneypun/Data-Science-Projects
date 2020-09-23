@@ -65,6 +65,7 @@ st.line_chart(ticker_df.Close)
 st.write(""" ## Google Stock Volume """)
 st.line_chart(ticker_df.Volume)
 
+
 # TESLA STOCK
 # ticker symbol is defined here
 ticker_symbol1 = 'TSLA'
