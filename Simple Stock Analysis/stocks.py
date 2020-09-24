@@ -64,17 +64,3 @@ st.write(""" ## Google Stock Closing Price """)
 st.line_chart(ticker_df3.Close)
 st.write(""" ## Google Stock Volume """)
 st.line_chart(ticker_df3.Volume)
-
-
-# TESLA STOCK
-# ticker symbol is defined here
-ticker_symbol4 = 'TSLA'
-# get data on this ticker
-ticker_data4 = yf.Ticker(ticker_symbol1)
-# get the historical prices for this ticker
-ticker_df4 = ticker_data1.history(period='1d', start='2010-9-20', end='2020-9-20')
-
-st.write(""" ## Tesla Stock Closing Price """) 
-st.line_chart(ticker_df4.Close)
-st.write(""" ## Tesla Stock Volume """)
-st.line_chart(ticker_df4.Volume)
