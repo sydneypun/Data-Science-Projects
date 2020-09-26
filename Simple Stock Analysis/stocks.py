@@ -6,7 +6,7 @@ import pandas as pd
 st.write( """
 	# Simple Stock Analysis Application
 
-	Here we can see the stock closing price and volume for FANG (Facebook, Amazon, Netflix, Google) and Tesla!
+	Here we can see the stock closing price and volume for FAANG (Facebook, Amazon, Apple, Netflix, Google)!
 	""")
 
 
