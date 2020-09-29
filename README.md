@@ -16,15 +16,8 @@ Using Data Science to analyze stock market trends for FAANG companies.
 5. `streamlit hello` 
 6. `streamlit run stocks.py`
 
-## How to Run `Dashboard.py`:
-1. `pip install streamlit`
-2. `pip install pandas`
-3. `streamlit hello` 
-4. `streamlit run Dashboard.py`
-
 ### Checklist
 - [x] Simple closing prices and volume analysis of FAANG companies
 - [x] Stock Market Jupyter Notebook predictions for FAANG companies
 - [ ] Adding more markdown to the Jupyter Notebooks and cleaning up the overall appearance 
 - [ ] Consider adding Tesla to the list of companies to analyze
-- [x] Stock market dashboard
