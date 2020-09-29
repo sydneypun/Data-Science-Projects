@@ -21,4 +21,4 @@ CHECKLIST:
 - [x] Stock Market Jupyter Notebook predictions for FAANG companies
 - [ ] Adding more markdown to the Jupyter Notebooks and cleaning up the overall appearance 
 - [ ] Consider adding Tesla to the list of companies to analyze
-- [ ] Stock market dashboard(?)
+- [x] Stock market dashboard
