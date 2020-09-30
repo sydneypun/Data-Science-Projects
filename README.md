@@ -1,6 +1,8 @@
 # Stock Analysis
 
-Using Data Science to analyze stock market trends for FAANG companies.  
+Using Data Science to analyze stock market trends for FAANG and other companies. 
+
+*NOTE: This portfolio will be diversified to analyze companies beyond the FAANG companies. 
 
 ![img1](https://github.com/sydneypun/Stock-Analysis/blob/master/Images/stonks.jpg)
 
@@ -17,7 +19,8 @@ Using Data Science to analyze stock market trends for FAANG companies.
 5. `streamlit hello` 
 6. `streamlit run stocks.py`
 
-### Checklist
+### Checklist:
 - [x] Simple closing prices and volume analysis of FAANG companies
 - [x] Stock Market Jupyter Notebook predictions for FAANG companies
 - [x] Financial Portfolio Optimization
+- [ ] Analyze other companies to diversify this portfolio (i.e. Tesla)
