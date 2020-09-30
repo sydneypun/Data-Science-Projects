@@ -11,7 +11,7 @@ Using Data Science to analyze stock market trends for FAANG companies.
 3. [FAANG Stock Dataset:](https://www.kaggle.com/aayushmishra1512/faang-complete-stock-data) This dataset contains an overview of the stocks for all of the FAANG companies. 
 
 ## How to Run `Stocks.py`:
-1. `cd Simple Stock Analysis`
+1. `cd Charts`
 2. `pip install streamlit`
 3. `pip install yfinance`
 4. `pip install pandas`
@@ -22,4 +22,4 @@ Using Data Science to analyze stock market trends for FAANG companies.
 - [x] Simple closing prices and volume analysis of FAANG companies
 - [x] Stock Market Jupyter Notebook predictions for FAANG companies
 - [x] Financial Portfolio Optimization
-- [ ] Adding more markdown to the Jupyter Notebooks and cleaning up the overall appearance 
+- [ ] Consider adding Tesla to the analysis(?)
