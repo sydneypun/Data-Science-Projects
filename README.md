@@ -2,6 +2,8 @@
 
 Using Data Science to analyze stock market trends for FAANG companies.  
 
+![img1](https://github.com/sydneypun/Stock-Analysis/blob/master/Images/stonks.jpg)
+
 ## Datasets Descriptions:
 **Obtained through downloading:**
 1. [S&P 500 Stock Dataset:](https://www.kaggle.com/camnugent/sandp500) This dataset contains a 5-year overview of the stocks for the S&P 500 companies. 
