@@ -22,4 +22,3 @@ Using Data Science to analyze stock market trends for FAANG companies.
 - [x] Simple closing prices and volume analysis of FAANG companies
 - [x] Stock Market Jupyter Notebook predictions for FAANG companies
 - [x] Financial Portfolio Optimization
-- [ ] Consider adding Tesla to the analysis(?)
