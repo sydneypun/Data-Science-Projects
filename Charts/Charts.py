@@ -6,7 +6,7 @@ import pandas as pd
 st.write( """
 	# Simple Stock Analysis Application
 
-	Here we can see the stock closing price and volume for FAANG (Facebook, Amazon, Apple, Netflix, Google)!
+	Here we can see the stock closing price and volume for FAANG (Facebook, Amazon, Apple, Netflix, Google) and other companies (i.e Tesla)!
 	""")
 
 
@@ -78,3 +78,17 @@ st.write(""" ## Google Stock Closing Price """)
 st.line_chart(ticker_df4.Close)
 st.write(""" ## Google Stock Volume """)
 st.line_chart(ticker_df4.Volume)
+
+
+# TESLA STOCK
+# ticker symbol is defined here
+ticker_symbol5 = 'TSLA'
+# get data on this ticker
+ticker_data5 = yf.Ticker(ticker_symbol5)
+# get the historical prices for this ticker
+ticker_df5 = ticker_data5.history(period='1d', start='2010-9-20', end='2020-9-20')
+
+st.write(""" ## Tesla Stock Closing Price """)
+st.line_chart(ticker_df5.Close)
+st.write(""" ## Tesla Stock Volume """)
+st.line_chart(ticker_df5.Volume)
